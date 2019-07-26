@@ -2,23 +2,20 @@
 
 module testbench;
 /*  parameters (if used)    */
-    localparam clkRate = 1;   //half time-period of clock (in ns)
+    localparam tickRate = 10;   //half time-period of clock (in ns)
 /*  all necessary variables */
-    reg clk;
+    wire clk;
 /*  generating file to see signals  */
     initial begin
         $dumpfile("test.vcd");
         $dumpvars(0, testbench);
     end
 /*  clock-pulse */
-    initial begin
-        clk = 1'b0;
-        forever #clkRate clk = ~clk;
-    end
+    clock #(.tickRate(tickRate)) clockModule(clk);
 /*  instantiating module and other parallel statements    */
     //moduleName #() uut();
 /*  stimuli */
     initial begin
-        #10 $finish;
+        #100 $finish;
     end
 endmodule
