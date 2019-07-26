@@ -1,4 +1,4 @@
-module LFSR #(parameter seed = 32'b1) (output reg[31:0] LFSRregister, input clk);
+module lfsr #(parameter seed = 32'b1) (output reg[31:0] LFSRregister, input clk);
 /*  initially register will contain seed value  */
     initial begin
         LFSRregister = seed;
