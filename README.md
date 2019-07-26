@@ -4,11 +4,12 @@ This repository contains some verilog modules which are the elementary and funda
 
 **Table of Contents**
 - [Modules](#modules)
-  - [Flip - Flops](#flip-flops)
+  - [Flip Flops](#flip-flops)
   - [Adder Circuits](#adder-circuits)
   - [Counters](#counters)
   - [Multiplexers and De-Multiplexers](#multiplexers-and-de-multiplexers)
   - [Miscellaneous](#miscellaneous)
+- [Usage and Installation](#usage-and-installation)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -55,6 +56,12 @@ This repository contains some verilog modules which are the elementary and funda
 *   [Two's Complementer](/twoComplementer.v)
 *   [N Bit Shift Register (universal shift register)](/nBitShiftRegister.v)
 *   [Typical Example of circuit with datapath and control unit](/designExampleDDMano.v)
+
+## Usage and Installation
+1. Clone this repository to local machine - `git clone https://github.com/aklsh/getting-started-with-verilog.git`.
+2. cd into the repository - `cd getting-started-with-verilog/`
+3. Edit the testbench in the file `testbench.v` by instantiating the module you want to check, and providing the stimulus in the initial block.
+4. Run with `make`.
 
 ## Contributing
 Feel free to submit pull requests with more such modules. Do take a look at the [format of an accepted file](/CONTRIBUTING.md) before contributing.
