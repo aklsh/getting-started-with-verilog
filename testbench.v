@@ -2,7 +2,7 @@
 
 module testbench;
 /*  parameters (if used)    */
-    localparam tickRate = 10;   //half time-period of clock (in ns)
+    localparam tickRate = 1;   //half time-period of clock (in ns)
 /*  all necessary variables */
     wire clk;
 /*  generating file to see signals  */
@@ -16,6 +16,6 @@ module testbench;
     //moduleName #() uut();
 /*  stimuli */
     initial begin
-        #100 $finish;
+        #10 $finish;
     end
 endmodule
