@@ -13,7 +13,7 @@ This repository contains some verilog modules which are the elementary and funda
 - [License](#license)
 
 ## Modules
-### Flip - Flops
+### Flip Flops
 -   #### [D Flip-Flop](/FFs/DFF/)
     *   [without *Clear/Reset*](/FFs/DFF/DFF.v)
     *   [with __*Synchronous*__ *Clear/Reset*](/FFs/DFF/DFF_SyncClear.v)
