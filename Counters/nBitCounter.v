@@ -1,4 +1,4 @@
-module NBitCounter #(parameter N = 32, parameter inc = 1, parameter seed = 0) (output reg[N-1:0] count, input clk, input rst, input[N-1:0] pl, input load);
+module nBitCounter #(parameter n = 32, parameter inc = 1, parameter seed = 0) (output reg[n-1:0] count, input clk, input rst, input[n-1:0] pl, input load);
 /*  initially set count to start/seed   */
     initial begin
         count = seed;

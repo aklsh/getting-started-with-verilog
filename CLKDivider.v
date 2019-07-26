@@ -1,4 +1,4 @@
-module CLKDivider #(parameter integer factor = 100) (output clkOut, input clkIn);
+module clkDivider #(parameter integer factor = 100) (output clkOut, input clkIn);
     wire clkOut;
     reg[31:0] counter;
 /*  initially set counter to 0  */

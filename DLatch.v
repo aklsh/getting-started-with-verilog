@@ -1,4 +1,4 @@
-module DLatch(output reg Q, input D, input enable);
+module dLatch(output reg Q, input D, input enable);
 /*  Level Triggered */
     always @(enable, D) begin
     /*  if latch is enabled, then set o/p   */
