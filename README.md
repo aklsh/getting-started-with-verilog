@@ -56,7 +56,7 @@ This repository contains some verilog modules which are the elementary and funda
 *   [Clock Divider (customisable factor)](/clkDivider.v)
 *   [D Latch](/dLatch.v)
 *   [Memory](/memory.v)
-*   [32 Bit LFSR - Pseudo Random Number Generator](/LFSR.v)
+*   [32 Bit LFSR - Pseudo Random Number Generator](/lfsr.v)
 *   [Switch Debouncer](/switchDebouncer.v)
 *   [Pattern Detector](/patternDetector.v)
 *   [Two's Complementer](/twoComplementer.v)
