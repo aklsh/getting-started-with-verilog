@@ -8,6 +8,7 @@ This repository contains some verilog modules which are the elementary and funda
   - [Adder Circuits](#adder-circuits)
   - [Counters](#counters)
   - [Multiplexers and De-Multiplexers](#multiplexers-and-de-multiplexers)
+  - [Multipliers](#multipliers)
   - [Miscellaneous](#miscellaneous)
 - [Usage and Installation](#usage-and-installation)
 - [Contributing](#contributing)
@@ -44,6 +45,12 @@ This repository contains some verilog modules which are the elementary and funda
 *   [2<sup>n</sup> to 1 Multiplexer](/Multiplexers\and\De-Multiplexers/mux2nTo1.v)
 *   [1 to 2<sup>n</sup> De-Multiplexer](/Multiplexers\and\De-Multiplexers/deMUX1To2n.v)
 
+### Multipliers
+*   [(8 Bit) Wallace Tree Multiplier](/Multipliers/wallaceTreeMultiplier8Bit.v)
+*   [(4 Bit) Serial Parallel Multiplier](/Multipliers/serialParallelMultiplier4Bit.v)
+*   [(4 Bit) Booth Multiplier](/Multipliers/boothMultiplier4Bit.v)
+
+
 ### Miscellaneous
 *   [Clock (customisable tick rate)](/clock.v)
 *   [Clock Divider (customisable factor)](/clkDivider.v)
@@ -51,7 +58,6 @@ This repository contains some verilog modules which are the elementary and funda
 *   [Memory](/memory.v)
 *   [32 Bit LFSR - Pseudo Random Number Generator](/LFSR.v)
 *   [Switch Debouncer](/switchDebouncer.v)
-*   [8 Bit Wallace Tree Multiplier](/wallaceTreeMultiplier8Bit.v)
 *   [Pattern Detector](/patternDetector.v)
 *   [Two's Complementer](/twoComplementer.v)
 *   [N Bit Shift Register (universal shift register)](/nBitShiftRegister.v)
