@@ -1,6 +1,4 @@
-`timescale 1ns/1ps
-
-module multiplier(prod, busy, mc, mp, clk, start);
+module boothMultiplier4Bit(prod, busy, mc, mp, clk, start);
     output reg [7:0] prod;
     output reg busy;
     input [3:0] mc, mp;
@@ -32,19 +30,6 @@ module multiplier(prod, busy, mc, mp, clk, start);
             end
         end
     end
-    alu adder (sum, A, M, 1'b0);
-    alu subtracter (difference, A, ~M, 1'b1);
-endmodule
-
-//The following is an alu.
-//It is an adder, but capable of subtraction:
-//Recall that subtraction means adding the two's complement--
-//a - b = a + (-b) = a + (inverted b + 1)
-//The 1 will be coming in as cin (carry-in)
-module alu(out, a, b, cin);
-    output [3:0] out;
-    input [3:0] a;
-    input [3:0] b;
-    input cin;
-    assign out = a + b + cin;
+    assign sum = A + M;
+    assign difference = A + ~M + 1'b1;
 endmodule
