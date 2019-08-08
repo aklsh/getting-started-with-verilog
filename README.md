@@ -38,8 +38,8 @@ This repository contains some verilog modules which are the elementary and funda
 *   [N Bit Ripple Carry Adder](/Adders/NBitRippleCarryAdder.v)
 
 ### Counters
-*   [N Bit Counter (generic)](/Counters/NBitCounter.v)
-*   [N Bit Johnson Counter](/Counters/NBitJohnsonCounter.v)
+*   [N Bit Counter (generic)](/Counters/nBitCounter.v)
+*   [N Bit Johnson Counter](/Counters/nBitJohnsonCounter.v)
 
 ### Multiplexers and De-Multiplexers
 *   [2<sup>n</sup> to 1 Multiplexer](/Multiplexers\and\De-Multiplexers/mux2nTo1.v)
