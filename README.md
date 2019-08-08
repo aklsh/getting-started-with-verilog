@@ -42,8 +42,8 @@ This repository contains some verilog modules which are the elementary and funda
 *   [N Bit Johnson Counter](/Counters/nBitJohnsonCounter.v)
 
 ### Multiplexers and De-Multiplexers
-*   [2<sup>n</sup> to 1 Multiplexer](/Multiplexers\and\De-Multiplexers/mux2nTo1.v)
-*   [1 to 2<sup>n</sup> De-Multiplexer](/Multiplexers\and\De-Multiplexers/deMUX1To2n.v)
+*   [2<sup>n</sup> to 1 Multiplexer](/Multiplexers and De-Multiplexers/mux2nTo1.v)
+*   [1 to 2<sup>n</sup> De-Multiplexer](/Multiplexers and De-Multiplexers/deMUX1To2n.v)
 
 ### Multipliers
 *   [(8 Bit) Wallace Tree Multiplier](/Multipliers/wallaceTreeMultiplier8Bit.v)
