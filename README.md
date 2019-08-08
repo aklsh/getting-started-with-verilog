@@ -34,8 +34,8 @@ This repository contains some verilog modules which are the elementary and funda
 ### Adder Circuits
 *   [1 Bit Half Adder](/Adders/HA.v)
 *   [1 Bit Full Adder](/Adders/FA.v)
-*   [N Bit Carry Look Ahead Adder](/Adders/NBitCarryLookAheadAdder.v)
-*   [N Bit Ripple Carry Adder](/Adders/NBitRippleCarryAdder.v)
+*   [N Bit Carry Look Ahead Adder](/Adders/nBitCarryLookAheadAdder.v)
+*   [N Bit Ripple Carry Adder](/Adders/nBitRippleCarryAdder.v)
 
 ### Counters
 *   [N Bit Counter (generic)](/Counters/nBitCounter.v)
