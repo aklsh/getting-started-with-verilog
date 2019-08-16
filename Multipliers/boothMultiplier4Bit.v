@@ -1,8 +1,4 @@
-module boothMultiplier4Bit(prod, busy, mc, mp, clk, start);
-    output reg [7:0] prod;
-    output reg busy;
-    input [3:0] mc, mp;
-    input clk, start;
+module boothMultiplier4Bit(output reg[7:0] prod, output reg busy, input[3:0] mc, input[3:0] mp, input clk, input start);
     reg [3:0] A, Q, M;
     reg Q_1;
     reg [2:0] count;

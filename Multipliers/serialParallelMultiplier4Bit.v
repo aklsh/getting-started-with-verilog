@@ -3,7 +3,7 @@ module serialParallelMultiplier4Bit(output reg [7:0] out, output finish, input r
 	reg [8:0] ACC; // Accumulator
 	assign finish = (State == 9) ? 1'b1:1'b0; // Finish Flag
 
-	always@(posedge clk, A, B) begin
+	always @(posedge clk, A, B) begin
 		if(reset) begin
 			State <= 0;
 			ACC <= 0;
