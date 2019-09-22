@@ -13,7 +13,7 @@ module testbench;
 /*  clock-pulse */
     clock #(.tickRate(tickRate)) clockModule(clk);
 /*  instantiating module and other parallel statements    */
-    //moduleName #() uut();
+    //module name #() uut();
 /*  stimuli */
     initial begin
         #100 $finish;
