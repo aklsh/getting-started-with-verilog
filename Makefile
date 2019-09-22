@@ -1,6 +1,6 @@
 run:
 	@clear
-	@find . -type f  -name "*.v"|xargs iverilog -Wportbind
+	@find . -type f  -name "*.v"|xargs iverilog -Wall
 	@vvp ./a.out
 	@open -a gtkwave test.vcd
-	@rm -f a.out
+	@rm -f ./a.out
