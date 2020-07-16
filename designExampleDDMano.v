@@ -1,30 +1,44 @@
-/*==============================================================================
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Copyright (C) 2020 Akilesh Kannan <akileshkannan@gmail.com>
+//
+// File: designExampleDDMano.v
+// Modified: 2020-07-15
+// Description: Implementation of system used to illustrate the use of ASMD charts and RTL
+//              representation, in the book "Digital Design, With An Introduction to Verilog HDL"
+//              by M. Morris Mano and Michael D. Ciletti
+//              (Fig. 8.12)
+//
+// License: MIT
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Implementation of system used to illustrate the use of ASMD charts and RTL
-representation, in the book "Digital Design, With An Introduction to Verilog HDL"
-by M. Morris Mano and Michael D. Ciletti
+`default_nettype None
 
-(Fig. 8.12)
-
-==============================================================================*/
+`timescale 1ns/1ps
 
 module designExampleDDMano(A, E, F, clk, rstAL, start);
+
     output[3:0] A;
     output E, F;
     input clk, rstAL, start;
-/*  instantiating control unit and datapath unit    */
+
+    //  instantiating control unit and datapath unit
     designExampleDTP datapathUnit(A, E, F, clrE, clrAF, setE, setF, incrA, clk);
     designExampleCTRL controlUnit(clrE, setE, setF, clrAF, incrA, A[3], A[2], start, rstAL, clk);
 endmodule
 
 module designExampleCTRL(clrE, setE, setF, clrAF, incrA, A3, A2, start, rstAL, clk);
+
     output reg clrE, setE, setF, clrAF, incrA;
     input A3, A2, start, rstAL, clk;
     reg[1:0] currState, nextState;
     parameter S0 = 2'b00, S1 = 2'b01, S2 = 2'b11;
+
     always @(posedge clk, negedge rstAL)
         if(rstAL == 0)   currState <= S0;
         else    currState <= nextState;
+
     always @ (start, A2, A3, currState) begin
         nextState = S0;
         case(currState)
@@ -40,6 +54,7 @@ module designExampleCTRL(clrE, setE, setF, clrAF, incrA, A3, A2, start, rstAL, c
                 nextState = S0;
         endcase
     end
+
     always @ (currState, A2, start) begin
         setE = 0; setF = 0; clrE = 0; clrAF = 0; incrA = 0;
         case(currState)
@@ -54,9 +69,11 @@ module designExampleCTRL(clrE, setE, setF, clrAF, incrA, A3, A2, start, rstAL, c
 endmodule
 
 module designExampleDTP(A, E, F, clrE, clrAF, setE, setF, incrA, clk);
+
     output reg[3:0] A;
     output reg E, F;
     input clrE, clrAF, setE, setF, incrA, clk;
+
     always @ (posedge clk) begin
         if(setE)    E <= 1;
         if(setF)    F <= 1;

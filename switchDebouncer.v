@@ -1,4 +1,22 @@
-module switchDebouncer #(parameter integer N = 16)(output reg switchOut, input switchIn, input clk);
+////////////////////////////////////////////////////////////////////////
+//
+// Copyright (C) 2020 Akilesh Kannan <akileshkannan@gmail.com>
+//
+// File: switchDebouncer.v
+// Modified: 2020-07-15
+// Description: Switch Debouncing Circuit
+//
+//
+// License: MIT
+//
+////////////////////////////////////////////////////////////////////////
+
+`default_nettype None
+
+`timescale 1ns/1ps
+
+module switchDebouncer #(parameter integer N = 16) (output reg switchOut, input switchIn, input clk);
+
     wire rst, add;
     reg dFF1, dFF2;
     reg[N-1:0] timeReg, nextReg;

@@ -1,0 +1,2280 @@
+{
+ "builder": {
+  "_version": "0.37",
+  "_logger": "hdl_checker.builders.ghdl",
+  "_database": {
+   "sources": [
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multipliers/serialParallelMultiplier4Bit.v",
+      "__class__": "Path"
+     },
+     "mtime": 1565610125.0280318,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/lfsr.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564152661.1829507,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/memory.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564152661.1815085,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multiplexers and De-Multiplexers/deMUX1To2n.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.9273756,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Counters/nBitCounter.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.9412239,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/nBitRippleCarryAdder.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.943503,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/DFF/DFF_SyncClear.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.9333892,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/TFF/TFF.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.9294224,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/clkDivider.v",
+      "__class__": "Path"
+     },
+     "mtime": 1569161368.872284,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/fifo.v",
+      "__class__": "Path"
+     },
+     "mtime": 1594829479.270259,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/DFF/DFF_AsyncClear.v",
+      "__class__": "Path"
+     },
+     "mtime": 1584680027.0851977,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/HA.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.947315,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/JKFF/JKFF_AsyncClear.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.831077,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/designExampleDDMano.v",
+      "__class__": "Path"
+     },
+     "mtime": 1594828393.1398768,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/nBitCarryLookAheadAdder.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.9454186,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/DFF/DFF.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.937199,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/FA.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.9491208,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/TFF/TFF_AsyncClear.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.8358982,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/nBitShiftRegister.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564152661.180222,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/clock.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.8442998,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/switchDebouncer.v",
+      "__class__": "Path"
+     },
+     "mtime": 1563789347.9115062,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/TFF/TFF_SyncClear.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.836853,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/patternDetector.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.9232183,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/barrelShifterNBit.v",
+      "__class__": "Path"
+     },
+     "mtime": 1574600890.7455409,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/testbench.v",
+      "__class__": "Path"
+     },
+     "mtime": 1569161331.3004823,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/JKFF/JKFF_SyncClear.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.8320837,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multiplexers and De-Multiplexers/mux2nTo1.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.925225,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/dLatch.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564152661.1842666,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multipliers/boothMultiplier4Bit.v",
+      "__class__": "Path"
+     },
+     "mtime": 1565968770.9637644,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/twoComplementer.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.8482032,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multipliers/wallaceTreeMultiplier8Bit.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564139925.3674507,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Counters/nBitJohnsonCounter.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.9391305,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    },
+    {
+     "path": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/JKFF/JKFF.v",
+      "__class__": "Path"
+     },
+     "mtime": 1564151968.9313767,
+     "flags": {
+      "single": [],
+      "dependencies": []
+     },
+     "dependencies": [],
+     "diags": []
+    }
+   ],
+   "inferred_libraries": [
+    {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/fifo.v",
+     "__class__": "Path"
+    },
+    {
+     "name": "/var/folders/xt/tn6091hn0gnfrs6bw7hgv84w0000gn/T/tmpwpkm3pqn.v",
+     "__class__": "Path"
+    },
+    {
+     "name": "/var/folders/xt/tn6091hn0gnfrs6bw7hgv84w0000gn/T/tmpvtruvqxl.v",
+     "__class__": "Path"
+    }
+   ],
+   "design_units": [
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multiplexers and De-Multiplexers/mux2nTo1.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "mux2nTo1",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multipliers/serialParallelMultiplier4Bit.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "serialParallelMultiplier4Bit",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/JKFF/JKFF_AsyncClear.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "JKFF_AsyncClear",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/switchDebouncer.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "switchDebouncer",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/DFF/DFF_AsyncClear.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "DFF_AsyncClear",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multipliers/boothMultiplier4Bit.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "boothMultiplier4Bit",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Counters/nBitJohnsonCounter.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "nBitJohnsonCounter",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/designExampleDDMano.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "designExampleCTRL",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       20,
+       7
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/dLatch.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "dLatch",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/DFF/DFF_SyncClear.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "DFF_SyncClear",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/HA.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "HA",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       22,
+       7
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/testbench.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "testbench",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       2,
+       7
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/clkDivider.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "clkDivider",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/nBitShiftRegister.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "nBitShiftRegister",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/nBitCarryLookAheadAdder.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "nBitCarryLookAheadAdder",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/barrelShifterNBit.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "barrelShifterNBit",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/designExampleDDMano.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "designExampleDTP",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       56,
+       7
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multipliers/wallaceTreeMultiplier8Bit.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "wallaceTreeMultiplier8Bit",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multiplexers and De-Multiplexers/deMUX1To2n.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "deMUX1To2n",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/lfsr.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "lfsr",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/nBitRippleCarryAdder.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "nBitRippleCarryAdder",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/DFF/DFF.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "DFF",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/TFF/TFF_AsyncClear.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "TFF_AsyncClear",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/FA.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "FA",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       28,
+       7
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/JKFF/JKFF_SyncClear.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "JKFF_SyncClear",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/JKFF/JKFF.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "JKFF",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/TFF/TFF.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "TFF",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/clock.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "clock",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/patternDetector.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "patternDetector",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/twoComplementer.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "twoComplementer",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/designExampleDDMano.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "designExampleDDMano",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       10,
+       7
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/fifo.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "fifo",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       4,
+       7
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/TFF/TFF_SyncClear.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "TFF_SyncClear",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/Counters/nBitCounter.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "nBitCounter",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    },
+    {
+     "owner": {
+      "name": "/Users/akileshkannan/Desktop/Verilog Modules/memory.v",
+      "__class__": "Path"
+     },
+     "type_": "entity",
+     "name": {
+      "name": "memory",
+      "case_sensitive": true,
+      "__class__": "VerilogIdentifier"
+     },
+     "locations": [
+      [
+       0,
+       6
+      ]
+     ],
+     "__class__": "VerilogDesignUnit"
+    }
+   ],
+   "__class__": "Database"
+  },
+  "_work_folder": "/Users/akileshkannan/Desktop/Verilog Modules/.hdl_checker",
+  "_builtin_libraries": [
+   {
+    "name": "std",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "mentor",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "synopsys",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "vendors",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "ieee",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "src",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   }
+  ],
+  "_added_libraries": [],
+  "__class__": "GHDL"
+ },
+ "config_file": [
+  {
+   "name": "/tmp/hdl_checker_project_pid46590.json",
+   "__class__": "Path"
+  },
+  1594829394.4435759,
+  "generated"
+ ],
+ "database": {
+  "sources": [
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multipliers/serialParallelMultiplier4Bit.v",
+     "__class__": "Path"
+    },
+    "mtime": 1565610125.0280318,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/lfsr.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564152661.1829507,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/memory.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564152661.1815085,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multiplexers and De-Multiplexers/deMUX1To2n.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.9273756,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Counters/nBitCounter.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.9412239,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/nBitRippleCarryAdder.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.943503,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/DFF/DFF_SyncClear.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.9333892,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/TFF/TFF.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.9294224,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/clkDivider.v",
+     "__class__": "Path"
+    },
+    "mtime": 1569161368.872284,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/fifo.v",
+     "__class__": "Path"
+    },
+    "mtime": 1594829479.270259,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/DFF/DFF_AsyncClear.v",
+     "__class__": "Path"
+    },
+    "mtime": 1584680027.0851977,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/HA.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.947315,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/JKFF/JKFF_AsyncClear.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.831077,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/designExampleDDMano.v",
+     "__class__": "Path"
+    },
+    "mtime": 1594828393.1398768,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/nBitCarryLookAheadAdder.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.9454186,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/DFF/DFF.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.937199,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/FA.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.9491208,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/TFF/TFF_AsyncClear.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.8358982,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/nBitShiftRegister.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564152661.180222,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/clock.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.8442998,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/switchDebouncer.v",
+     "__class__": "Path"
+    },
+    "mtime": 1563789347.9115062,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/TFF/TFF_SyncClear.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.836853,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/patternDetector.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.9232183,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/barrelShifterNBit.v",
+     "__class__": "Path"
+    },
+    "mtime": 1574600890.7455409,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/testbench.v",
+     "__class__": "Path"
+    },
+    "mtime": 1569161331.3004823,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/JKFF/JKFF_SyncClear.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.8320837,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multiplexers and De-Multiplexers/mux2nTo1.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.925225,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/dLatch.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564152661.1842666,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multipliers/boothMultiplier4Bit.v",
+     "__class__": "Path"
+    },
+    "mtime": 1565968770.9637644,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/twoComplementer.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.8482032,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multipliers/wallaceTreeMultiplier8Bit.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564139925.3674507,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Counters/nBitJohnsonCounter.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.9391305,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/JKFF/JKFF.v",
+     "__class__": "Path"
+    },
+    "mtime": 1564151968.9313767,
+    "flags": {
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   }
+  ],
+  "inferred_libraries": [
+   {
+    "name": "/Users/akileshkannan/Desktop/Verilog Modules/fifo.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/var/folders/xt/tn6091hn0gnfrs6bw7hgv84w0000gn/T/tmpwpkm3pqn.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/var/folders/xt/tn6091hn0gnfrs6bw7hgv84w0000gn/T/tmpvtruvqxl.v",
+    "__class__": "Path"
+   }
+  ],
+  "design_units": [
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multiplexers and De-Multiplexers/mux2nTo1.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux2nTo1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multipliers/serialParallelMultiplier4Bit.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "serialParallelMultiplier4Bit",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/JKFF/JKFF_AsyncClear.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "JKFF_AsyncClear",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/switchDebouncer.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "switchDebouncer",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/DFF/DFF_AsyncClear.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "DFF_AsyncClear",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multipliers/boothMultiplier4Bit.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "boothMultiplier4Bit",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Counters/nBitJohnsonCounter.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "nBitJohnsonCounter",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/designExampleDDMano.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "designExampleCTRL",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      20,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/dLatch.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "dLatch",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/DFF/DFF_SyncClear.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "DFF_SyncClear",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/HA.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "HA",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      22,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/testbench.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "testbench",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/clkDivider.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "clkDivider",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/nBitShiftRegister.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "nBitShiftRegister",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/nBitCarryLookAheadAdder.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "nBitCarryLookAheadAdder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/barrelShifterNBit.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "barrelShifterNBit",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/designExampleDDMano.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "designExampleDTP",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      56,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multipliers/wallaceTreeMultiplier8Bit.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "wallaceTreeMultiplier8Bit",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Multiplexers and De-Multiplexers/deMUX1To2n.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "deMUX1To2n",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/lfsr.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "lfsr",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/nBitRippleCarryAdder.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "nBitRippleCarryAdder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/DFF/DFF.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "DFF",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/TFF/TFF_AsyncClear.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "TFF_AsyncClear",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Adders/FA.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "FA",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      28,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/JKFF/JKFF_SyncClear.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "JKFF_SyncClear",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/JKFF/JKFF.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "JKFF",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/TFF/TFF.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "TFF",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/clock.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "clock",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/patternDetector.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "patternDetector",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/twoComplementer.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "twoComplementer",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/designExampleDDMano.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "designExampleDDMano",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      10,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/fifo.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "fifo",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      4,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/FFs/TFF/TFF_SyncClear.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "TFF_SyncClear",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/Counters/nBitCounter.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "nBitCounter",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/Users/akileshkannan/Desktop/Verilog Modules/memory.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "memory",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   }
+  ],
+  "__class__": "Database"
+ },
+ "__version__": "0.6.13"
+}

@@ -1,4 +1,22 @@
+////////////////////////////////////////////////////////////////////////
+//
+// Copyright (C) 2020 Akilesh Kannan <akileshkannan@gmail.com>
+//
+// File: serialParallelMultiplier4Bit.v
+// Modified: 2020-07-15
+// Description: 4-bit Serial-Parallel Multiplier
+//
+//
+// License: MIT
+//
+////////////////////////////////////////////////////////////////////////
+
+`default_nettype None
+
+`timescale 1ns/1ps
+
 module serialParallelMultiplier4Bit(output reg [7:0] out, output finish, input reset, input clk, input [3:0] A, input [3:0] B);
+
 	reg [3:0] State; // state machine
 	reg [8:0] ACC; // Accumulator
 	assign finish = (State == 9) ? 1'b1:1'b0; // Finish Flag

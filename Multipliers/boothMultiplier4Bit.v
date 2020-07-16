@@ -1,8 +1,27 @@
+////////////////////////////////////////////////////////////////////////
+//
+// Copyright (C) 2020 Akilesh Kannan <akileshkannan@gmail.com>
+//
+// File: boothMultiplier4Bit.v
+// Modified: 2020-07-15
+// Description: 4 bit Booth Multiplier
+//              Signed Multiplication
+//
+// License: MIT
+//
+////////////////////////////////////////////////////////////////////////
+
+`default_nettype None
+
+`timescale 1ns/1ps
+
 module boothMultiplier4Bit(output reg[7:0] prod, output reg busy, input[3:0] mc, input[3:0] mp, input clk, input start);
+
     reg [3:0] A, Q, M;
     reg Q_1;
     reg [2:0] count;
     wire [3:0] sum, difference;
+
     always @(posedge clk) begin
         if (start) begin
             A <= 0;
@@ -26,6 +45,7 @@ module boothMultiplier4Bit(output reg[7:0] prod, output reg busy, input[3:0] mc,
             end
         end
     end
+
     assign sum = A + M;
     assign difference = A + ~M + 1'b1;
 endmodule
