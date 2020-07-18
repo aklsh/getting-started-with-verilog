@@ -63,6 +63,7 @@ This repository contains some verilog modules which are the elementary and funda
 *   [N Bit Shift Register (universal shift register)](/nBitShiftRegister.v)
 *   [Typical Example of circuit with datapath and control unit](/designExampleDDMano.v)
 *   [N-Bit Barrel Shifter](/barrelShifterNBit.v)
+*   [FIFO](/fifo.v)
 
 ## Usage and Installation
 1. Clone this repository to local machine - `git clone https://github.com/aklsh/getting-started-with-verilog.git`.
