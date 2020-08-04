@@ -1,2 +1,4 @@
 *.vcd
 .hdl_checker/
+*.o
+*.out
